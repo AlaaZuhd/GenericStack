@@ -1,0 +1,15 @@
+C:\Users\alaaz\source\repos\FTSTraining.FirstExercise\FTSTraining.FirstExercise\bin\Debug\net6.0\FTSTraining.FirstExercise.exe
+C:\Users\alaaz\source\repos\FTSTraining.FirstExercise\FTSTraining.FirstExercise\bin\Debug\net6.0\FTSTraining.FirstExercise.deps.json
+C:\Users\alaaz\source\repos\FTSTraining.FirstExercise\FTSTraining.FirstExercise\bin\Debug\net6.0\FTSTraining.FirstExercise.runtimeconfig.json
+C:\Users\alaaz\source\repos\FTSTraining.FirstExercise\FTSTraining.FirstExercise\bin\Debug\net6.0\FTSTraining.FirstExercise.dll
+C:\Users\alaaz\source\repos\FTSTraining.FirstExercise\FTSTraining.FirstExercise\bin\Debug\net6.0\FTSTraining.FirstExercise.pdb
+C:\Users\alaaz\source\repos\FTSTraining.FirstExercise\FTSTraining.FirstExercise\obj\Debug\net6.0\FTSTraining.FirstExercise.csproj.AssemblyReference.cache
+C:\Users\alaaz\source\repos\FTSTraining.FirstExercise\FTSTraining.FirstExercise\obj\Debug\net6.0\FTSTraining.FirstExercise.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alaaz\source\repos\FTSTraining.FirstExercise\FTSTraining.FirstExercise\obj\Debug\net6.0\FTSTraining.FirstExercise.AssemblyInfoInputs.cache
+C:\Users\alaaz\source\repos\FTSTraining.FirstExercise\FTSTraining.FirstExercise\obj\Debug\net6.0\FTSTraining.FirstExercise.AssemblyInfo.cs
+C:\Users\alaaz\source\repos\FTSTraining.FirstExercise\FTSTraining.FirstExercise\obj\Debug\net6.0\FTSTraining.FirstExercise.csproj.CoreCompileInputs.cache
+C:\Users\alaaz\source\repos\FTSTraining.FirstExercise\FTSTraining.FirstExercise\obj\Debug\net6.0\FTSTraining.FirstExercise.dll
+C:\Users\alaaz\source\repos\FTSTraining.FirstExercise\FTSTraining.FirstExercise\obj\Debug\net6.0\refint\FTSTraining.FirstExercise.dll
+C:\Users\alaaz\source\repos\FTSTraining.FirstExercise\FTSTraining.FirstExercise\obj\Debug\net6.0\FTSTraining.FirstExercise.pdb
+C:\Users\alaaz\source\repos\FTSTraining.FirstExercise\FTSTraining.FirstExercise\obj\Debug\net6.0\FTSTraining.FirstExercise.genruntimeconfig.cache
+C:\Users\alaaz\source\repos\FTSTraining.FirstExercise\FTSTraining.FirstExercise\obj\Debug\net6.0\ref\FTSTraining.FirstExercise.dll
