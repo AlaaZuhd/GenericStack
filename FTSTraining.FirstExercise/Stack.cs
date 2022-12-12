@@ -7,10 +7,10 @@ using System.Threading.Tasks;
 
 namespace FTSTraining.FirstExercise
 {
+    // [To be discussed] Note: Pop() and Peek() method returns deafult(T) in case the stack is empty this can cause some ambiguity in the program for the client side
     // generic Stack class. 
     public class Stack<T>
     {
-
 
         List<T> stack = new List<T>();
 
@@ -34,7 +34,7 @@ namespace FTSTraining.FirstExercise
             }
         }
 
-        public T? Peak()
+        public T? Peek()
         {
             if (stack.Count > 0)
             {
@@ -51,12 +51,12 @@ namespace FTSTraining.FirstExercise
         {
             if (stack.Count > 0)
             {
-                Console.WriteLine("Stack items are: ");
+                Console.Write("Stack items are: (\t");
                 for (int i = 0; i < stack.Count; i++)
                 {
                     Console.Write($"Stack[{i}]: {stack[i]}\t");
                 }
-                Console.WriteLine("");
+                Console.WriteLine(")");
             } else
             {
                 Console.WriteLine("Stack is Empty.");

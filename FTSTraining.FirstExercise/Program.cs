@@ -4,35 +4,28 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("\t \t ----------\t\twelcome To Stack Implementation Exercise!\t\t---------");
 
+            Console.WriteLine("\t \t ----------\t\twelcome To Stack Implementation Exercise!\t\t---------");
             // test #1. Stack with int type. 
             Stack<int> stack1 = new Stack<int>();
             int[] arr1 = { 3, 4, 5 };
-            Console.WriteLine("Test NO.1: T --> int"); 
             StaticTest(stack1, arr1);
-            Console.WriteLine("\t \t ----------\t\t----------\t\t----------\n");
 
             // test #2. Stack with double type. 
             Stack<double> stack2 = new Stack<double>();
             double[] arr2 = { 3.5, 4.5, 5.5 };
-            Console.WriteLine("Test NO.2: T --> double");
             StaticTest(stack2, arr2);
-            Console.WriteLine("\t \t ----------\t\t----------\t\t----------\n");
 
             // test #1. Stack with string type. 
             Stack<string> stack3 = new Stack<string>();
             string[] arr3 = { "Alaa", "Zuhd", "FTS" };
-            Console.WriteLine("Test NO.3: T --> string");
             StaticTest(stack3, arr3);
-            Console.WriteLine("\t \t ----------\t\t----------\t\t----------\n");
-
 
         }
 
         public static void StaticTest<T>(Stack<T> stack, T[] items_arr)
         {
-            Console.WriteLine("Test for the implmentation of the stack will start.");
+            Console.WriteLine($"Testing Stack<{typeof(T).Name}> will start.");
 
             Console.Write("Items to be pushed into the stack are: "); 
             foreach(T item in items_arr) { Console.Write($"{item}, "); }
@@ -49,7 +42,7 @@
             // display the content of the stakc again: the last item will be noticed that it was removed. 
             stack.Print();
             // now get the top item from the stack. 
-            top_item = stack.Peak();
+            top_item = stack.Peek();
             Console.WriteLine($"The top item in the stack is: {top_item}");
             // clear the stack 
             stack.Clear();
@@ -61,8 +54,9 @@
             top_item = stack.Pop();
             // the same thing will be displayed when trying to get the last item from the stack when it's empty.
             Console.WriteLine("Trying to get the peak item from the stack. However the stack is empty!");
-            top_item = stack.Peak();
+            top_item = stack.Peek();
             Console.WriteLine("Test is completed.");
+            Console.WriteLine("\t \t ----------\t\t----------\t\t----------\n");
         }
     }
 }
